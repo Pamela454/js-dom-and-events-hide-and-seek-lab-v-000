@@ -1,5 +1,7 @@
 function getFirstSelector(selector) {
-  for (let i = 0; ) {
-    
+  filter(selector) {
+    if ( === selector) {
+      console.log(user.firstName);
+    }
   }
 }
