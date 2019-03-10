@@ -7,13 +7,11 @@ function nestedTarget() {
 }
 
 function deepestChild() {
-  
+  const nodes = document.querySelector( '#grand-node div div div div' )
+  return nodes
 }
 
 function increaseRankBy(n) {
   const ranks = document.querySelectorAll( '.ranked-list' )
   parseInt(ranks)
-  for (const i of ranks) {
-  console.log(i + n);
-  }
 }
